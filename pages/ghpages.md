@@ -1,9 +1,5 @@
 These were the steps followed:
 
-- Taken from: [Making an independent website](http://kbroman.org/simple_site/pages/independent_site.html)
-- Taken from: [Making a personal site](http://kbroman.org/simple_site/pages/user_site.html)
-
-
 	git clone git@github.com:kbroman/simple_site.git githubpage
 	cd githubpage/
 	rm -rf .git
@@ -21,3 +17,10 @@ These were the steps followed:
 	git commit -m "Initial commit"
 	git remote add origingh git@github.com:nozimica/nozimica.github.io.git
 	git push origingh master
+
+
+References:
+
+- Taken from: [Making an independent website](http://kbroman.org/simple_site/pages/independent_site.html)
+- Taken from: [Making a personal site](http://kbroman.org/simple_site/pages/user_site.html)
+
