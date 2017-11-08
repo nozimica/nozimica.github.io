@@ -5,7 +5,11 @@ tagline: Collection of scripts and good practices for Linux
 description: Collection of scripts and good practices for Linux
 ---
 
-A brief collection of scripts for Linux.
+A brief collection of scripts for Linux:
 
 - [Installing](pages/installing.html)
 - [Post-install configurations](pages/postinstall_configs.html)
+
+Some other pages:
+
+- [Set up GH pages](pages/ghpages.html)
