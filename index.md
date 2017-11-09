@@ -10,6 +10,10 @@ A brief collection of scripts for Linux:
 - [Installing](pages/installing.html)
 - [Post-install configurations](pages/postinstall_configs.html)
 
+Scripts for specific applications:
+
+- [Redmine: Install and set-up](pages/redmineInstall.html)
+
 Some other pages:
 
 - [Set up GH pages](pages/ghpages.html)
