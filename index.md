@@ -5,10 +5,15 @@ tagline: Collection of scripts and good practices for Linux
 description: Collection of scripts and good practices for Linux
 ---
 
-A brief collection of scripts for Linux:
+### Scripts for Linux:
 
 - [Installing](pages/installing.html)
 - [Post-install configurations](pages/postinstall_configs.html)
+
+#### TexLive
+
+- [Install TexLive](pages/texLiveInstall.html)
+- [Supporting packages](pages/texLiveSupportingApps.html)
 
 Scripts for specific applications:
 
