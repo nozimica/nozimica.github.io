@@ -9,6 +9,7 @@ description: Collection of scripts and good practices for Linux
 
 - [Installing](pages/installing.html)
 - [Post-install configurations](pages/postinstall_configs.html)
+- [Apps configurations](pages/apps_configs.html)
 
 #### TexLive
 
