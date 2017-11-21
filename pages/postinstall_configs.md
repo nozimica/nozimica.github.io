@@ -1,5 +1,8 @@
-Post-install configurations
-====================
+---
+layout: page
+title: Post-install configurations
+---
+
 
 After a Linux is up and running.
 
