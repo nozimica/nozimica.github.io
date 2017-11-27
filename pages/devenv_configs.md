@@ -18,6 +18,11 @@ Install vim
                 --enable-multibyte \
                 --enable-gui=gtk2 \
                 --enable-cscope \
+                --enable-pythoninterp=yes \
+                --with-python-config-dir=`which python2.7-config` \
+                --enable-rubyinterp=yes \
+                --enable-perlinterp=yes \
+                --enable-luainterp=yes \
                 --prefix=$HOME/opt/vim 
     make
     make install
