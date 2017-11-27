@@ -20,6 +20,8 @@ Install vim
                 --enable-cscope \
                 --enable-pythoninterp=yes \
                 --with-python-config-dir=`which python2.7-config` \
+                --enable-python3interp=yes \
+                --with-python3-config-dir=`which python3.6-config` \
                 --enable-rubyinterp=yes \
                 --enable-perlinterp=yes \
                 --enable-luainterp=yes \
@@ -27,6 +29,7 @@ Install vim
     make
     make install
 
+Reference: https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source
 
 Install dotfiles
 ------------
