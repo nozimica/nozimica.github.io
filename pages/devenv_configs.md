@@ -10,8 +10,8 @@ Install vim
 
     cd ~
     [ -d opt ] || mkdir opt
-    [ -d src ] || mkdir src
-    cd src
+    [ -d var/src ] || mkdir -p var/src
+    cd var/src
     git clone https://github.com/vim/vim.git
     cd vim
     ./configure --with-features=huge \
