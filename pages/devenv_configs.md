@@ -19,9 +19,9 @@ Install vim
                 --enable-gui=gtk2 \
                 --enable-cscope \
                 --enable-pythoninterp=yes \
-                --with-python-config-dir=`which python2.7-config` \
+                --with-python-config-dir=`python2.7-config --configdir` \
                 --enable-python3interp=yes \
-                --with-python3-config-dir=`which python3.6-config` \
+                --with-python3-config-dir=`python3.6-config --configdir` \
                 --enable-rubyinterp=yes \
                 --enable-perlinterp=yes \
                 --enable-luainterp=yes \
