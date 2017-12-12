@@ -12,15 +12,22 @@ description: Collection of scripts and good practices for Linux
 - [Development environment configurations](pages/devenv_configs.html)
 - [Apps configurations](pages/apps_configs.html)
 
+------
+
 #### TexLive
 
 - [Install TexLive](pages/texLiveInstall.html)
 - [Supporting packages](pages/texLiveSupportingApps.html)
 
-Scripts for specific applications:
+------
+
+#### Scripts for specific applications and services:
 
 - [Redmine: Install and set-up](pages/redmineInstall.html)
+- [Digitalocean](pages/doceanSetUp.html)
 
-Some other pages:
+------
+
+#### Some other pages:
 
 - [Set up GH pages](pages/ghpages.html)
