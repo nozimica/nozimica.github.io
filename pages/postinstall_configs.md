@@ -68,3 +68,10 @@ Reference: https://gist.github.com/vancluever/d34b41eb77e6d077887c
     sudo apt purge tracker-extract tracker-miner-fs
 
 
+Configuring Gnome
+----------------
+
+### Disable thumbnails
+
+    gsettings set org.gnome.desktop.thumbnailers disable-all true
+
