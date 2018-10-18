@@ -1,3 +1,11 @@
+---
+layout: page
+title: First steps after a fresh Linux server
+---
+
+First steps
+-----------
+
 1. Create droplet.
 1. As root:
     1. Initial setup
@@ -10,9 +18,9 @@
     1. Install vim, git, tree
     1. Setup new user
 
-        adduser <USERNAME>
+        adduser ${USERNAME}
 
-1. As <USERNAME>
+1. As ${USERNAME}
     1. Setup SSH
 
         sudo sed -i -e 's_PermitRootLogin yes_PermitRootLogin without-password_g' /etc/ssh/sshd_config
@@ -29,9 +37,10 @@
 
     1. Add public keys from trusted computers.
 
-= Other configurations =
+Other configurations
+--------------------
 
-== Nginx ==
+### Nginx
 
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-debian-8
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04
@@ -44,21 +53,21 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysq
 
      sudo apt-get install php5-intl php5-gd php5-xcache
 
-== MediaWiki ==
+### MediaWiki
 
 https://www.mediawiki.org/wiki/Manual:SQLite
 https://www.digitalocean.com/community/tutorials/how-to-install-mediawiki-on-ubuntu-14-04
 
     wget https://releases.wikimedia.org/mediawiki/1.25/mediawiki-1.25.3.tar.gz
 
-=== Sqlite3 ===
+### Sqlite3
 
     sudo apt-get install sqlite3 libsqlite3-dev php5-sqlite
 
     mkdir -p wiki/db
     sudo chown -R www-data.www-data wiki/db
 
-== Swap ==
+### Swap
 
 https://www.digitalocean.com/community/tutorials/how-to-configure-virtual-memory-swap-file-on-a-vps
 
