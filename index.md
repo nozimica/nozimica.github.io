@@ -7,7 +7,7 @@ description: Collection of scripts and good practices for Linux
 
 ### Scripts for Linux:
 
-- [Installing](pages/installing.html)
+- [First steps aftera fresh install (DigitalOcean)](pages/installing.html)
 - [Post-install configurations](pages/postinstall_configs.html)
 - [Development environment configurations](pages/devenv_configs.html)
 - [Apps configurations](pages/apps_configs.html)
