@@ -4,3 +4,6 @@ basicUsage:
 
 killServer:
 	pkill -f jekyll
+
+install:
+	bundle install --path ~/.gem
