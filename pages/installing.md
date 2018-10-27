@@ -10,30 +10,30 @@ First steps
 1. As root:
     1. Initial setup
 
-        apt-get remove --purge unscd
-        userdel -r debian
+            apt-get remove --purge unscd
+            userdel -r debian
 
     1. Setup firewall (ufw).
     1. Update and upgrade system.
     1. Install vim, git, tree
     1. Setup new user
 
-        adduser ${USERNAME}
+            adduser ${USERNAME}
 
 1. As ${USERNAME}
     1. Setup SSH
 
-        sudo sed -i -e 's_PermitRootLogin yes_PermitRootLogin without-password_g' /etc/ssh/sshd_config
-        sudo service ssh restart
+            sudo sed -i -e 's_PermitRootLogin yes_PermitRootLogin without-password_g' /etc/ssh/sshd_config
+            sudo service ssh restart
 
     1. Setup user
 
-        sudo chsh -s /bin/bash nozimica
-        mkdir ~/dev 
-        cd !$
-        git clone https://github.com/nozimica/dotfiles.git dotfiles
-        cd dotfiles/bin
-        ./s01_update_dotfiles.sh
+            sudo chsh -s /bin/bash nozimica
+            mkdir ~/dev 
+            cd !$
+            git clone https://github.com/nozimica/dotfiles.git dotfiles
+            cd dotfiles/bin
+            ./s01_update_dotfiles.sh
 
     1. Add public keys from trusted computers.
 
